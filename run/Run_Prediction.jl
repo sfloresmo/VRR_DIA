@@ -1,6 +1,6 @@
 # julia --threads 8 Run_Prediction.jl --lmax 20 --coupling Quad --Npart 1000 --dt 1.0 --Nsteps 330 --order 1
 ##################################################
-include("Main.jl")
+include("../src/Main.jl")
 ##################################################
 println("LMAX | ",LMAX," | COUPLING | ",COUPLING," | ORDER | ",ORDER," | NPART | ",NPART)
 println("DT | ",DT," | NSTEPS | ",NSTEPS," | T_C | ",T_C)
