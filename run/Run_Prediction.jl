@@ -8,7 +8,7 @@ println("DT | ",DT," | NSTEPS | ",NSTEPS," | T_C | ",T_C)
 # To dump the results
 ##################################################
 function dump!()
-    namefile = "data/data_Prediction_LMAX_"*string(LMAX)*"_COUPLING_"*COUPLING*"_ORDER_"*string(ORDER)*".hf5"
+    namefile = "../data/data_Prediction_LMAX_"*string(LMAX)*"_COUPLING_"*COUPLING*"_ORDER_"*string(ORDER)*".hf5"
     #####
     file = h5open(namefile,"w") # Opening the file
     #####
