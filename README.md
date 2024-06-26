@@ -3,7 +3,7 @@ Vector Resonant Relaxation (VRR)
 Stars orbiting a supermassive black hole
 in the center of galaxies undergo very efficient
 diffusion in their orbital orientations. This is "Vector Resonant Relaxation". 
-We present a code that computes an approximate prediction of the two-point correlation function. The first-order approximation (order 1) corresponds to the so-called Direct Interaction Approxiamtion (DIA). 
+We present a code that computes an approximate prediction of the two-point correlation function. The first-order approximation (order 1) corresponds to the so-called Direct Interaction Approximation (DIA). 
 The next-order (order 2) diverging prediction is also computed in this code.
 
 Packages
