@@ -21,16 +21,16 @@ List of Julia packages required to run the code:
 
 Run
 -
-First, open the run folder in the terminal:
+I. Open the run folder in the terminal:
 ```sh
 cd run
 ```
-Second, generate the data of the prediction by writing the command (computing time < 2s): 
+II. Generate the data of the prediction by writing the command (computing time < 2s): 
 
 ```sh
 julia --threads 8 Run_Prediction.jl --lmax 20 --coupling Quad --Npart 1000 --dt 1.0 --Nsteps 330 --order 1
 ```
-Third, generate the figure from the data write:
+III. Generate the figure from the data:
 ```sh
 julia Run_Create_Figs.jl --lmax 20 --coupling Quad --Npart 1000 --dt 1.0 --Nsteps 330 --order 1
 ```
